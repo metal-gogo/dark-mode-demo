@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  .cover-image {
+    border-radius: 6px;
+    border: 1px solid rgba(25, 26, 25, 0.15);
+  }
+
+  .icon-play { 
+    background: green;
+    border-radius: 6px;
+
+    path {
+      fill: blueviolet;
+      transition: fill 0.250s ease-in-out; 
+    }
+
+    &:hover {
+      path {
+        fill: red;
+      }   
+    }
+  }
+}
